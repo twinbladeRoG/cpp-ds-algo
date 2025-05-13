@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Time Complexity = O(log2 N)
+// Time Complexity = O(N * log2 N)
 void merge(vector<int> &arr, int low, int mid, int high) {
   int left = low;
   int right = mid + 1;
